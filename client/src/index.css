@@ -1,0 +1,35 @@
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --teal:       #0F6E56;
+  --teal-dark:  #085041;
+  --teal-light: #E1F5EE;
+  --amber:      #BA7517;
+  --amber-light:#FAEEDA;
+  --red:        #E24B4A;
+  --red-light:  #FCEBEB;
+  --gray-100:   #F1EFE8;
+  --gray-400:   #888780;
+  --gray-600:   #5F5E5A;
+  --text:       #1a1a18;
+  --text-muted: #5F5E5A;
+  --border:     rgba(0,0,0,0.09);
+  --card-bg:    #ffffff;
+  --page-bg:    #F7F6F1;
+  --radius-sm:  8px;
+  --radius-md:  12px;
+  --radius-lg:  18px;
+}
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  background: var(--page-bg);
+  color: var(--text);
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
